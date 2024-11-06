@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.color-logo{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: blue;
+}
+
+.color-logo::first-letter{
+    color: green;
+    /* -webkit-text-stroke: 2px green; */
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.ul{
+    gap: 30px;
+    list-style: none;
+}
+
+.ul .list .nav-link {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.ul .list .nav-link.active{
+    color: blue;
+}
+
+.d-list::before{
+    content: 'v';
+    margin-left: 6.3rem;
+    position: absolute;
+    font-weight: 200;
+    font-stretch: ultra-expanded;
+    font-size: 1.5rem;
+}
